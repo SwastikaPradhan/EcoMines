@@ -34,7 +34,7 @@ function Cards() {
 
   const handleClickMore = (title) => {
     if (title === 'AFFORESTATION') {
-      router.push('/');  // Navigate to the AfforestationAnalytics page
+      router.push('/afforestation');  // Navigate to the AfforestationAnalytics page
     }
     // Add handling for other titles if needed
   };
