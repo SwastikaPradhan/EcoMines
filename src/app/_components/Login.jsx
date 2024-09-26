@@ -200,7 +200,7 @@ function SignInForm() {
   return (
     <div className="flex justify-center items-center h-screen">
       <div className="w-full max-w-md px-10 bg-white border border-gray-300 shadow-lg rounded-lg">
-        <h2 className="text-lg font-bold text-gray-800 text-center mb-4">Sign In</h2>
+        <h2 className="text-lg font-bold text-gray-800 text-center mb-4">Log In</h2>
         <form className="px-4 py-2">
           <label className="block mb-4">
             <span className="text-gray-700">State:</span>
@@ -263,7 +263,7 @@ function SignInForm() {
             type="submit"
             className="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
           >
-            Sign In
+            Log In
           </button>
 
           <div className="px-4 py-2 text-center mt-4">

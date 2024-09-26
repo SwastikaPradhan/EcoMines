@@ -1,11 +1,11 @@
 // src/app/sign-up/page.jsx
 
-import SignUp from '../_components/SignUp';
+import Login from '../_components/Login';
 
 export default function SignUpPage() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <SignUp />
+      <Login />
     </div>
   );
 }

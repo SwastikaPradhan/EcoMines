@@ -91,13 +91,13 @@ function Header() {
 
             <Link href='/sign-up'>
               <Button className="rounded-full bg-blue-800 text-white">
-                Sign Up
+                Login
               </Button>
             </Link>
 
             <Link href='/signin'>
               <Button className="rounded-full bg-blue-500 hover:bg-blue-600 text-white">
-                Sign In
+                Sign Up
               </Button>
             </Link>
           </div>

@@ -37,6 +37,12 @@ function Cards() {
       router.push('/afforestation');  // Navigate to the AfforestationAnalytics page
     }
     // Add handling for other titles if needed
+    if( title === 'CARBONCREDITS'){
+      router.push('/carboncredits');
+    }
+    if( title === 'CARBON EMISSION'){
+      router.push('/carbonemission');
+    }
   };
 
   return (
@@ -83,7 +89,7 @@ const data = [
     description: 'Enter your chosen dataset for carbon footprint estimation'
   },
   {
-    title: 'EMISSION ESTIMATION',
+    title: 'CARBON EMISSION',
     img: '/gas-emissions-calculator-glyph-two-color-icon-vector.jpg',
     description: 'ML Model that calculates the emission estimate'
   },
